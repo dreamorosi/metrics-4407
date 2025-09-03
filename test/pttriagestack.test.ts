@@ -1,5 +1,4 @@
 import { readFileSync } from 'node:fs';
-import { expect, test } from 'vitest';
 import { handler } from '../src/index.js';
 import { context } from './context.js';
 
